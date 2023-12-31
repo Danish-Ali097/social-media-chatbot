@@ -5,11 +5,11 @@ export default function Home() {
   const [userMessage, setUserMessage] = useState('');
   const [chatResponse, setChatResponse] = useState('');
 
-  const handleUserMessageChange = (e) => {
+  const handleUserMessageChange = (e: any) => {
     setUserMessage(e.target.value);
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
 
     try {
