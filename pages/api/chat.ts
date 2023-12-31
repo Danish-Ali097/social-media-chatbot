@@ -21,7 +21,7 @@ const responses: any = {
 function findMatchingQuestion(userMessage: string) {
   for (const question in responses) {
     // You can enhance this comparison logic based on your specific needs
-    if (question.toLowerCase().includes(userMessage.toLowerCase())) {
+    if (question.toLowerCase().includes(userMessage.toLowerCase().trim().replace('?',''))) {
       return question;
     }
   }
