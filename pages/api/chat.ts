@@ -5,7 +5,7 @@ type Data = {
   message: string
 }
 
-const responses = {
+const responses: any = {
   "Pakistan’s official stance on the Gaza conflict":"Pakistan supports a peaceful resolution and advocates for the rights and protection of Palestinian people, urging international cooperation and dialogue to address the humanitarian crisis.",
   "How Pakistan describes its relationship with the MENA region":"The relationship between Pakistan and the MENA region is characterized by strong historical ties, cultural affinity, and mutual cooperation. Pakistan's commitment to Islamic solidarity and its strategic position in South Asia further contribute to a robust partnership with MENA countries, focusing on peace, development, and collaborative progress.",
   "Whether Pakistan engages with international bodies regarding the Gaza conflict":"Yes, Pakistan actively engages with the United Nations, OIC, and other international forums to promote dialogue, peace, and humanitarian efforts in Gaza.",
