@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <div className={`min-h-screen p-24`}>
-      <h1 className={`text-2xl text-center mb-5`}>DIPLOMAT VOICE</h1>
+      <h1 className={`text-2xl text-center mb-5 font-bold`}>DIPLOMAT VOICE</h1>
       <form onSubmit={handleSubmit} className={`form`}>
         <div className="mt-8 max-w-md">
           <div className="grid grid-cols-1 gap-6">
